@@ -1,0 +1,64 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	
+}
+
+body {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+
+img {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	border: 4px solid white;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Lato", sans-serif;
+}
+
+h2 {
+	color: white;
+}
+
+p {
+	color: white;
+	font-size: 20px
+}
+
+.player-character {
+	float: right;
+}
+
+#defender {
+	float: right;
+}
+
+.enemy {
+	float: right;
+}
+
+#selected-character {
+	float: right;
+}
+
+#player {
+	float: right;
+}
+
+#selected-enemy {
+	float: right;
+}
+
+.fight-section {
+	float: right;
+}
+

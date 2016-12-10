@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<title> Star Wars RPG </title>
+
+	</head>
+
+
+	<body background="assets/images/Star Wars.jpg">
+		<h1> Star Wars RPG </h1>
+	<div class=container>
+		<h2>Choose a character</h2>
+		<div id="characters">
+			
+
+				<div class="character" id="darth">
+					<h2> Darth Vader </h2>
+					<img src="assets/images/Darth.jpg">
+					<p id="hp"></p>
+				</div>
+
+				<div class="character" id="yoda">
+					<h2> Yoda </h2>
+					<img src="assets/images/Yoda.jpg">
+					<p id="hp"></p>
+				</div>
+
+				<div class="character" id="luke">
+					<h2> Luke Skywalker </h2>
+				<img src="assets/images/Luke.jpg">
+					<p id="hp"></p>
+				</div>
+
+				<div class="character" id="sidious">
+					<h2> Darth Sidious </h2>
+				<img src="assets/images/Sidious.jpg">
+					<p id="hp"></p>
+				</div>
+
+				
+			
+		</div>
+	
+
+<div class="battle-panel">	
+	<h2 id="selected-character"> Your Character </h2>
+		<div id="player">
+		</div>
+
+	<h2>Enemies Available to Attack </h2>
+		<div id="enemy">
+		</div>
+	
+	<div class="fight-section">
+	<h2>Fight Section</h2>
+	<div class="button">
+	<button id="attack"> Attack </button>
+	</div>
+	</div>
+
+	<h2 id="selected-enemy"> Defender </h2>
+	<div id="defender">
+	</div>
+</div>
+
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="assets/javascript/game.js"></script>
+
+	</body>
+
+	</html>
