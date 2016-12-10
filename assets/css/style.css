@@ -50,11 +50,7 @@ p {
 	float: right;
 }
 
-#player {
-	float: right;
-}
-
-#selected-enemy {
+.defender {
 	float: right;
 }
 
